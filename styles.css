@@ -1,0 +1,49 @@
+body {
+	background: black;
+}
+* {
+	border: 1px dashed red;
+	min-height: 10px;
+}
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+	font-family: "Quicksand", sans-serif;
+}
+.postcard-header {
+	display: flex;
+	font-family: "Poetsen One", sans-serif;
+}
+.postcard-header img {
+	width: 70px;
+	height: 60px;
+}
+.postcard-header h1 {
+	margin: 5px;
+	width: 400px;
+}
+.postcard-body {
+	display: flex;
+}
+.body-left p:first-child {
+	margin-top: 0px;
+}
+.body-left,
+.body-rigth {
+	padding: 5px;
+}
+input {
+	border: none;
+	border-bottom: grey solid 1px;
+	font-family: "Quicksand", sans-serif;
+}
+.postcard-footer {
+	text-align: center;
+}
+button {
+	background-color: rgb(215, 215, 215);
+	padding: 5px;
+	font-family: "Quicksand", sans-serif;
+}
